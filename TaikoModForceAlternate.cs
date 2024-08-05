@@ -33,7 +33,7 @@ namespace osu.Game.Rulesets.Taiko.Mods
 
         private TaikoPlayfield playfield { get; set; } = null!;
 
-        private bool bypass = false;
+        private bool bypass = true;
         private TaikoAction? lastAcceptedAction { get; set; }
 
         private PeriodTracker nonGameplayPeriods = null!;
